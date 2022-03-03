@@ -1,8 +1,0 @@
-body {
-  background-color: antiquewhite;
-  text-align: center;
-}
-body.theme-dark {
-  background-color: black;
-  color: white;
-}
