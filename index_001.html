@@ -1,17 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <script src="index_001.js" defer></script>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    
-    <select id="pref"></select>
-    <p class="log"></p>
+<!DOCTYPE html> 
+<html lang="ko">
+<head>
+  <meta charset="utf-8"/>
+  <title>샘플</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="styles.css"/>
+  <!-- Web Animations API 미지원 브라우저 대응 Polyfill -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/web-animations/2.3.1/web-animations.min.js" defer></script>
+  <script src="index_001.js" defer></script>
 
-  </body>
+</head>
+<body>
+  <button id='btnplay'>play</button>
+  <button id='btnstop'>stop</button>
+  <video src="/sample.mp4" width="1000" height="500" controls autoplay id="mp3"></video>
+</body>
 </html>
