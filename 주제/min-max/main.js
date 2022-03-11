@@ -8,7 +8,6 @@
 function genRandomNumber(min,max){
     return Math.floor(Math.random()*(max-min+1))+min;
 }
-
 genRandomNumber(MIN_NUMBER, MAX_NUMBER)
 // 함수를 선언하고 사용할 때에는 함수 이름도 어떤 역할을 가지는지 정확하게 표현 할 필요가 있으며
 // 파라미터도 최소, 최댓값을 정확하게 표현해서 함수 내용을 모르더라도 어떤 함수인지 예측가능하게 하는것이 매우 중요
